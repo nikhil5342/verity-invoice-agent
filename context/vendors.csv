@@ -1,0 +1,16 @@
+vendor_id,vendor_name,bank_last4,hist_avg,status
+V001,Acme Steel Co,4521,12000,Active
+V002,BlueOcean Logistics,8830,8500,Active
+V003,Nimbus Software Ltd,1209,4200,Active
+V004,Crestline Office Supplies,6677,1450,Active
+V005,Pinnacle Consulting,9012,25000,Active
+V006,Verdant Cleaning Services,3344,2000,Active
+V007,Summit Industrial Supply,7102,9000,Active
+V008,Harbor Freight Co,2289,5500,Active
+V009,Lumen Electric,6634,3200,Active
+V010,Greenleaf Landscaping,4417,1800,Active
+V011,Apex Print Solutions,5503,2400,Active
+V012,Coastal Catering,8876,3500,Active
+V013,TitanTech Hardware,1190,7600,Active
+V014,Meridian Legal,9921,18000,Active
+V015,Orion Telecom,3058,2100,Active

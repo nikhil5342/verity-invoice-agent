@@ -1,0 +1,21 @@
+Invoice ID,Agent Vendor,Agent Amt,Agent Decision,Agent Fraud,Agent Conf %,Reasons
+INV-001,Acme Steel Co,12000.0,AUTO-CLEAR,No,100,All checks passed
+INV-002,BlueOcean Logistics,8500.0,AUTO-CLEAR,No,100,All checks passed
+INV-003,Nimbus Software Ltd,4200.0,AUTO-CLEAR,No,100,All checks passed
+INV-004,Crestline Office Supplies,1450.0,AUTO-CLEAR,No,100,All checks passed
+INV-005,Pinnacle Consulting,25000.0,AUTO-CLEAR,No,100,All checks passed
+INV-006,Verdant Cleaning Services,2000.0,AUTO-CLEAR,No,100,All checks passed
+INV-007,Acme Steel Co,6000.0,AUTO-CLEAR,No,100,All checks passed
+INV-008,BlueOcean Logistics,9900.0,FLAG,No,100,"Invoice $9,900 does not match PO PO-1002 ($8,500)"
+INV-009,Crestline Office Supplies,1450.0,FLAG,Yes,100,"Identical to a previously processed invoice (same vendor, PO, and amount) - duplicate-payment risk"
+INV-010,Acme Steel Co,13200.0,FLAG,No,100,"Invoice $13,200 does not match PO PO-1001 ($12,000) | Line items sum to $12,000, but the invoice total reads $13,200"
+INV-011,Pinnacle Consulting,25000.0,FLAG,Yes,100,"Bank account ...0000 differs from the vendor master (...9012) - classic invoice-fraud signal | Identical to a previously processed invoice (same vendor, PO, and amount) - duplicate-payment risk"
+INV-012,Nimbus Software Ltd,12800.0,FLAG,Yes,100,"No PO reference printed - nothing to match against | Amount $12,800 is 3.0x this vendor's historical average ($4,200)"
+INV-013,Acme Steel Corporation,11500.0,FLAG,Yes,100,"Vendor 'Acme Steel Corporation' closely resembles approved vendor 'Acme Steel Co' but is not an exact match - possible impersonation | Invoice $11,500 does not match PO PO-1001 ($12,000) | Invoice quantity 1 exceeds PO authorized quantity 100 | Bank account ...7788 differs from the vendor master (...4521) - classic invoice-fraud signal"
+INV-014,BlueOcean Logistics,1200.0,FLAG,Yes,100,No PO reference printed - nothing to match against | Bank account ...8650 differs from the vendor master (...8830) - classic invoice-fraud signal
+INV-015,Verdant Cleaning Services,2000.0,AUTO-CLEAR,No,100,All checks passed
+INV-016,Crestline Office Supplies,980.0,FLAG,No,100,No PO reference printed - nothing to match against
+INV-017,QuickParts LLC,5600.0,FLAG,Yes,100,Vendor 'QuickParts LLC' is not in the approved vendor master - unverified payee | No PO reference printed - nothing to match against
+INV-018,Acme Steel Co,14400.0,FLAG,No,100,"Invoice $14,400 does not match PO PO-1001 ($12,000) | Invoice quantity 120 exceeds PO authorized quantity 100"
+INV-019,BlueOcean Logistics,8540.0,FLAG,No,100,"Invoice $8,540 does not match PO PO-1002 ($8,500) | Line items sum to $8,000, but the invoice total reads $8,540"
+INV-020,Pinnacle Consulting,25000.0,FLAG,Yes,100,"Identical to a previously processed invoice (same vendor, PO, and amount) - duplicate-payment risk"

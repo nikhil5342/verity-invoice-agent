@@ -1,0 +1,8 @@
+po_number,vendor_name,description,auth_qty,unit_price,po_amount,recurring,status
+PO-1001,Acme Steel Co,Steel beams,100,120,12000,no,Open
+PO-1002,BlueOcean Logistics,Freight services,1,8500,8500,no,Open
+PO-1003,Nimbus Software Ltd,Annual license,1,4200,4200,no,Open
+PO-1004,Crestline Office Supplies,Stationery,1,1450,1450,no,Open
+PO-1005,Pinnacle Consulting,Advisory Q1,1,25000,25000,no,Open
+PO-1006,Acme Steel Co,Steel beams,50,120,6000,no,Open
+PO-1007,Verdant Cleaning Services,Monthly cleaning (recurring),1,2000,2000,yes,Open

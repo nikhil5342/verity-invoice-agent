@@ -1,0 +1,39 @@
+po_number,vendor_name,description,auth_qty,unit_price,po_amount,recurring,status
+PO-2001,Orion Telecom,auto,1,2100.0,2100,yes,Open
+PO-2002,Coastal Catering,auto,1,3500.0,3500,yes,Open
+PO-2003,Greenleaf Landscaping,auto,1,1800.0,1800,yes,Open
+PO-2011,Harbor Freight Co,auto,1,5500.0,5500,no,Open
+PO-2012,Lumen Electric,auto,1,3200.0,3200,no,Open
+PO-2013,Apex Print Solutions,auto,1,2400.0,2400,no,Open
+PO-2014,TitanTech Hardware,auto,1,7600.0,7600,no,Open
+PO-2015,Meridian Legal,auto,1,18000.0,18000,no,Open
+PO-2016,Nimbus Software Ltd,auto,1,4200.0,4200,no,Open
+PO-2017,Crestline Office Supplies,auto,1,1450.0,1450,no,Open
+PO-2018,Summit Industrial Supply,auto,200,45.0,9000,no,Open
+PO-2021,Acme Steel Co,auto,80,120.0,9600,no,Open
+PO-2022,Pinnacle Consulting,auto,1,25000.0,25000,no,Open
+PO-2023,BlueOcean Logistics,auto,1,8500.0,8500,no,Open
+PO-2024,Acme Steel Co,auto,50,120.0,6000,no,Open
+PO-2025,Nimbus Software Ltd,auto,1,4200.0,4200,no,Open
+PO-2026,Summit Industrial Supply,auto,1,9000.0,9000,no,Open
+PO-2027,Harbor Freight Co,auto,1,5500.0,5500,no,Open
+PO-2028,Lumen Electric,auto,1,3200.0,3200,no,Open
+PO-2029,Apex Print Solutions,auto,1,2400.0,2400,no,Open
+PO-2030,TitanTech Hardware,auto,1,7600.0,7600,no,Open
+PO-2031,Meridian Legal,auto,1,18000.0,18000,no,Open
+PO-2032,Crestline Office Supplies,auto,1,1450.0,1450,no,Open
+PO-2033,Pinnacle Consulting,auto,1,25000.0,25000,no,Open
+PO-2034,Acme Steel Co,auto,100,120.0,12000,no,Open
+PO-2035,BlueOcean Logistics,auto,1,8500.0,8500,no,Open
+PO-2036,Nimbus Software Ltd,auto,1,4200.0,4200,no,Open
+PO-2037,Lumen Electric,auto,1,3200.0,3200,no,Open
+PO-2040,Pinnacle Consulting,auto,1,25000.0,25000,no,Open
+PO-2041,Nimbus Software Ltd,auto,1,4200.0,4200,no,Open
+PO-2042,BlueOcean Logistics,auto,1,8500.0,8500,no,Open
+PO-1001,Acme Steel Co,Steel beams,100,120,12000,no,Open
+PO-1002,BlueOcean Logistics,Freight services,1,8500,8500,no,Open
+PO-1003,Nimbus Software Ltd,Annual license,1,4200,4200,no,Open
+PO-1004,Crestline Office Supplies,Stationery,1,1450,1450,no,Open
+PO-1005,Pinnacle Consulting,Advisory Q1,1,25000,25000,no,Open
+PO-1006,Acme Steel Co,Steel beams,50,120,6000,no,Open
+PO-1007,Verdant Cleaning Services,Monthly cleaning (recurring),1,2000,2000,yes,Open
